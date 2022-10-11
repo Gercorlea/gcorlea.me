@@ -1,0 +1,92 @@
+.todo {
+  background-color: #000;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+}
+.card {
+  width: 20rem;
+  height: 10rem;
+  cursor: pointer;
+  margin: 0rem;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  
+
+}
+
+.content {
+  text-align: center;
+  position: relative;
+  -webkit-transition: all 2.25s;
+  transition: all 2.25s;
+  background-color: rgb(127, 204, 240);
+  padding: 5em;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+}
+
+.card:hover .content {
+  -webkit-transform: rotateY(0.5turn);
+          transform: rotateY(0.5turn);
+}
+
+.front{
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  padding: 0;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  background-image: url("../src/images/gera.jpg");
+  background-size:cover;
+  background-position: 40% 40%;
+  
+}
+
+.back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  padding: 1em;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+
+.title {
+  
+  -webkit-transform: translateZ(5rem);
+          transform: translateZ(5rem);
+  font-size: 1.5rem;
+}
+
+.subtitle {
+  -webkit-transform: translateZ(2rem);
+          transform: translateZ(2rem);
+  
+}
+
+.back {
+  -webkit-transform: rotateY(0.5turn);
+          transform: rotateY(0.5turn);
+  background-color: #009bff;
+}
+
+.description {
+  -webkit-transform: translateZ(3rem);
+          transform: translateZ(3rem);
+}
