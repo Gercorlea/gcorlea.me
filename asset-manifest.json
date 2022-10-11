@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/gcorlea.me/static/css/main.4240f544.css",
-    "main.js": "/gcorlea.me/static/js/main.796fedf2.js",
-    "static/js/787.a0cb9e11.chunk.js": "/gcorlea.me/static/js/787.a0cb9e11.chunk.js",
-    "static/media/gera.jpg": "/gcorlea.me/static/media/gera.658401894616f6c6e5ca.jpg",
-    "index.html": "/gcorlea.me/index.html",
-    "main.4240f544.css.map": "/gcorlea.me/static/css/main.4240f544.css.map",
-    "main.796fedf2.js.map": "/gcorlea.me/static/js/main.796fedf2.js.map",
-    "787.a0cb9e11.chunk.js.map": "/gcorlea.me/static/js/787.a0cb9e11.chunk.js.map"
+    "main.css": "/static/css/main.376ceb8e.css",
+    "main.js": "/static/js/main.061ddc01.js",
+    "static/js/787.a0cb9e11.chunk.js": "/static/js/787.a0cb9e11.chunk.js",
+    "static/media/gera.jpg": "/static/media/gera.658401894616f6c6e5ca.jpg",
+    "index.html": "/index.html",
+    "main.376ceb8e.css.map": "/static/css/main.376ceb8e.css.map",
+    "main.061ddc01.js.map": "/static/js/main.061ddc01.js.map",
+    "787.a0cb9e11.chunk.js.map": "/static/js/787.a0cb9e11.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4240f544.css",
-    "static/js/main.796fedf2.js"
+    "static/css/main.376ceb8e.css",
+    "static/js/main.061ddc01.js"
   ]
 }
